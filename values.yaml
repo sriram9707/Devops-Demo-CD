@@ -5,13 +5,13 @@
 replicaCount: 1
 
 image:
-  repository: bbtest.jfrog.io/default-docker-local/spring-boot-example
+  repository: sriram9707/spring-boot-example
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.0.38"
+  tag: "1.0.16"
 
 imagePullSecrets:
-- name: bb-app-secret
+- name: regcred
 nameOverride: ""
 fullnameOverride: ""
 
